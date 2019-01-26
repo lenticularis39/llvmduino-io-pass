@@ -1,0 +1,3 @@
+This is a IO optimize pass for LLVM on Arduino, replacing digitalWrite with constant arguments with the actual instructions to write the value to the output register for increased performance.
+
+For more information how to use LLVM with Arduino, see https://github.com/lenticularis39/llvmduino-hardware.
